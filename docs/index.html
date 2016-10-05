@@ -2,22 +2,30 @@
 layout: default
 ---
 
-<div class="home">
+<div>
 
-  <h1 class="page-heading">Posts</h1>
+  <section>
+    <h1>Physical Computing Crash Course website</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <p>
+      Sito di riferimento per il crash course sul <em>physical computing</em> a cura di <a href="http://www.limulo.net" target="_blank">limulo.net</a>, tenuto presso <a href="http://www.sae.edu/ita/it" target="_blank">Sae Institute Milano</a> durante i mesi di Ottobre e Novembre 2016. 
+    </p>
+  </section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<section>
+<h2>Descrizione</h2>
+<p>In queste pagine raccogliamo i concetti trattati a lezione ed indichiamo i link al repository dal quale poter scaricare i codici sorgente dei programmi d'esempio.
+</p>
+<p>La sezione <b>Docs</b>, inoltre, contiene un elenco di link, libri di testo, fornitori di materiali, utili per poter cominciare a muovere i primi passi nel mondo della prototipazione elettronica e del <em>physical computing</em> più in generale.</p>
+<p>La sezione <b>Lezioni</b> per un rapido riassunto dei temi trattati...</p>
+</section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <section>
+    <h2>Subscribe</h2>
+
+    <p>
+      subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+    </p>
+  </section>
 
 </div>

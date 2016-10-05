@@ -1,27 +1,51 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
+# which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Physical Computing
-email: info@limulo.net
+title: Physical Computing Crash Course
 description: > # this means to ignore newlines until "baseurl:"
-  Physical Computing Crash Course at SAE Institute Milan 2016 by limulo.net
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
-twitter_username: limulo_lab
-github_username:  v1a1l1e1
+  Physical computing crash course @ SAE Institute Milan 2016
+repository: https://github.com/Limulo/pccc-sae2016
+baseurl: #/jekyll-theme-hackcss  # the subpath of your site, e.g. /blog
+url: https://limulo.github.io  # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-theme: minima
+
+# Sass settings
+sass:
+  style: compressed
+
+# Theme settings
+theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
+
+# Customizations
+your_name: limulo.net
+email: info@limulo.net
+
+navigation:
+  - text: Home
+    url: /
+  - text: Docs
+    url: /docs
+  - text: Lezioni
+    url: /lezioni
+
+social:
+  - service: github
+    username: v1a1l1e1
+    link: https://github.com/v1a1l1e1
+  - service: github
+    username: ariutti
+    link: https://github.com/ariutti
+  - service: twitter
+    username: limulo_lab
+    link: https://twitter.com/limulo_lab
+
+# Plugins
+gems:
+  - jekyll-seo-tag
