@@ -8,8 +8,8 @@ Ecco una lista dei principali punti di rferimento cartacei e non, utili per recu
 La lista è da considerarsi uno spunto per l'approfondimento ed è basata sulla nostra esperienza.
 
 ### Libri
-* Tom Igoe, "_Making things talk_", O'Reilly, 2007
 * Mark Schmidt, "_Arduino_", Pragmatic Bookshelf, 2011 
+* Tom Igoe, "_Making things talk_", O'Reilly, 2007
 * Eben Upton, Gareth Halfacree, "_Raspberry Pi user guide_", Wiley, 2012
 * Simon Monk, "_Raspberry Pi Cookbook_", O'Reilly
 
