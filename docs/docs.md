@@ -35,6 +35,7 @@ La lista è da considerarsi uno spunto per l'approfondimento ed è basata sulla 
 
 #### Sensori
 Alcuni video dell'[ITP](https://tisch.nyu.edu/itp) di New York in cui Tom Igoe parla di sensori
+
 * [pt1](https://vimeo.com/102042976 "pt1")
 * [pt2](https://vimeo.com/102044250 "pt2")
 * [datasheets](https://vimeo.com/102558686 "datasheets")
@@ -43,6 +44,7 @@ Alcuni video dell'[ITP](https://tisch.nyu.edu/itp) di New York in cui Tom Igoe p
 
 #### Arduino
 Alcuni video in cui Tom Igoe spiega i concetti base di Arduino
+
 * [Physical Computing Overview - Inside the Arduino Hardware](https://vimeo.com/132349270): si tratta di una collection di video a cura di Jeff Feddersen docente del corso "Physical computing" all'ITP di NY.
 
 ### Fornitori (online)
