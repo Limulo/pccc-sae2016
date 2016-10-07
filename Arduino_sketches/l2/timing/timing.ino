@@ -1,3 +1,13 @@
+/*
+* Come fare uso della funzione millis() per 
+* tenere traccia dello scorrere del tempo e temporizzare
+* il comportamento del circuito.
+* millis() ritorna il numero di millisecondi (long) 
+* a partire dall'ultima volta che il programma è stato
+* lanciato. Si resetta a 0 dopo 50 giorni.
+*/
+
+
 unsigned long int start, actual;
 unsigned int T;
 boolean led_status;
