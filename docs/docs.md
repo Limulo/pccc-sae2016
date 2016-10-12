@@ -51,6 +51,7 @@ Alcuni video in cui Tom Igoe spiega i concetti base di Arduino
 * [Adafruit](https://www.adafruit.com/): utile per aggiornarsi sulle ultime novità nel mondo della prototipazione elettronica, ricco di spunti e di tutorial più che esaustivi
 * [Sparkfun](https://www.sparkfun.com/): come per Adafruit, lo stesso dicasi per Sparkfun
 * [Robot Italy](http://www.robot-italy.com/): nostro personale riferimento per l'acquisto di materiale online. Professionali, veloci nelle consegne e disponibili
+* [Futura Elettronica](http://www.futurashop.it/);
 
 ### Negozi a Milano
 * [LED Elettronica](http://www.ledelettronica.com/)(Milano, via Bessarione 14)
