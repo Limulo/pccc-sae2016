@@ -59,3 +59,9 @@ Alcuni video in cui Tom Igoe spiega i concetti base di Arduino
 * [Fontana Componenti](http://fontanacomponenti.it/) (Corsico(MI), via Benedetto Croce 7)
 * [DME](http://www.dme.it/) (Milano, viale Cassala 30)	
 
+
+### Altro
+A titolo di promemoria indichiamo qui alcune altre risorse che possono risultare interessanti:
+
+* [pighixxx](http://www.pighixxx.com/test/): sito internet molto ben fatto, ricco di immagini e documenti .pdf che illustrano molte [configurazioni circuitali](http://www.pighixxx.com/test/abc/), semplici e complesse, per esepriementi di elettronica DIY. Sul sito altre immagini riportano in modo scematico le piedinature dei [principali microcontrollori](http://www.pighixxx.com/test/pinoutspg/processors/) e [schede di prototipazione](http://www.pighixxx.com/test/pinoutspg/boards/). Tutto il materiale è rilasciato con licenza _CreativeCommons_! Sempre sul sito una collezione di [tools](http://www.pighixxx.com/test/tools/), come calcolatori di resistenza, converitori, configurazioni di LEDs, utilizzabili direttamente sul web.
+
