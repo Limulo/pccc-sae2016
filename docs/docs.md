@@ -12,6 +12,8 @@ La lista è da considerarsi uno spunto per l'approfondimento ed è basata sulla 
 * Tom Igoe, "_Making things talk_", O'Reilly, 2007
 * Eben Upton, Gareth Halfacree, "_Raspberry Pi user guide_", Wiley, 2012
 * Simon Monk, "_Raspberry Pi Cookbook_", O'Reilly
+* Nemeth, Snyder, Hein, "_Linux - manuale per l'amministratore di sistema_", Pearson, 2008
+* Steve Parker, "_Shell Scripting_", Wrox, 2011
 
 ### Software
 * Arduino IDE
