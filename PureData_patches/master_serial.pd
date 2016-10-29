@@ -1,4 +1,4 @@
-#N canvas 270 109 1276 604 10;
+#N canvas 264 154 1276 604 10;
 #X obj 100 105 cnv 15 150 60 empty empty serial 5 12 0 14 -233017 -66577
 0;
 #X floatatom 525 467 10 0 0 1 baud - -, f 10;
@@ -73,6 +73,9 @@ open ports hupcl rxerrors;
 #X msg 42 90 0;
 #X obj 12 386 spigot;
 #X obj 11 569 print from-Arduino;
+#X obj 850 113 t b;
+#X obj 850 92 route dev port connect polling;
+#X obj 850 58 inlet from_netreceive;
 #X connect 5 0 49 0;
 #X connect 18 0 1 0;
 #X connect 18 1 11 0;
@@ -124,4 +127,10 @@ open ports hupcl rxerrors;
 #X connect 56 0 57 0;
 #X connect 57 0 34 0;
 #X connect 58 0 22 0;
+#X connect 60 0 32 0;
+#X connect 61 0 60 0;
+#X connect 61 1 33 0;
+#X connect 61 2 34 0;
+#X connect 61 3 40 0;
+#X connect 62 0 61 0;
 #X coords 0 -1 1 1 150 70 2 100 100;
