@@ -1,0 +1,65 @@
+#N canvas 482 69 496 336 10;
+#X obj 44 30 master_serial;
+#N canvas 368 72 403 438 raw-inputs-timer 0;
+#X obj 10 304 cnv 15 200 60 empty empty router 5 6 0 14 -233017 -66577
+0;
+#X obj 52 24 inlet from-serial;
+#X floatatom 21 340 5 0 0 1 (ms) - -, f 5;
+#X obj 52 48 moses 128;
+#X floatatom 52 80 5 0 0 2 data - -, f 5;
+#X floatatom 103 80 5 0 0 2 addr - -, f 5;
+#X msg 52 141 \$2 \$1;
+#X obj 52 119 pack 0 1;
+#X obj 103 98 - 128;
+#X floatatom 52 224 4 0 0 0 - - -, f 4;
+#X floatatom 141 224 4 0 0 0 - - -, f 4;
+#X floatatom 115 340 5 0 0 1 (ms) - -, f 5;
+#X obj 115 322 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 21 322 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 60 161 US;
+#X obj 52 187 route 0 1;
+#X obj 141 249 outlet BUT;
+#X obj 52 249 outlet POT;
+#X connect 1 0 3 0;
+#X connect 3 0 4 0;
+#X connect 3 1 5 0;
+#X connect 4 0 7 0;
+#X connect 5 0 8 0;
+#X connect 6 0 15 0;
+#X connect 7 0 6 0;
+#X connect 8 0 7 1;
+#X connect 9 0 13 0;
+#X connect 9 0 17 0;
+#X connect 10 0 12 0;
+#X connect 10 0 16 0;
+#X connect 15 0 9 0;
+#X connect 15 1 10 0;
+#X coords 0 -1 1 1 200 66 2 10 300;
+#X restore 44 109 pd raw-inputs-timer;
+#X obj 44 183 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 11700 1;
+#X obj 237 229 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 287 35 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 287 95 240;
+#X obj 287 152 pack 0 1;
+#X obj 44 9 r to_Arduino;
+#X obj 287 176 send to_Arduino;
+#X obj 287 70 t b a, f 8;
+#X obj 237 185 swap 1;
+#X obj 237 207 -;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 1 1 10 0;
+#X connect 4 0 9 0;
+#X connect 5 0 6 0;
+#X connect 6 0 8 0;
+#X connect 7 0 0 0;
+#X connect 9 0 5 0;
+#X connect 9 1 6 1;
+#X connect 10 0 11 0;
+#X connect 10 1 11 1;
+#X connect 11 0 3 0;
