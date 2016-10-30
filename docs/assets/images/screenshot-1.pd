@@ -1,0 +1,51 @@
+#N canvas 209 232 911 572 10;
+#X msg 74 317 devices;
+#X msg 532 166 close;
+#X obj 290 433 comport;
+#X obj 290 507 outlet value;
+#X obj 129 233 f;
+#X msg 129 286 open \$1;
+#X text 662 202 data chunk of 8 bits;
+#X text 662 212 extra stop bit off;
+#X text 662 222 parity bit off;
+#X text 662 232 baud rate 9600;
+#X text 585 202 settings;
+#X obj 74 57 bng 15 250 50 0 empty empty dev? 17 7 0 10 -262144 -1
+-1;
+#X floatatom 147 57 5 0 100 2 port - -, f 5;
+#X obj 217 57 tgl 15 0 empty empty connect 17 7 0 10 -258699 -1 -1
+0 1;
+#X obj 217 149 sel 1;
+#X obj 12 10 inlet data-to-be-sent;
+#X msg 161 203 bits 8 \, stopbit 0 \, parity 0 \, baud 9600 \, hupcl
+0 \, verbose 0;
+#X obj 290 57 tgl 15 0 empty empty polling 17 7 0 10 -262144 -1 -1
+0 1;
+#X text 662 242 hang up off last close off;
+#X obj 290 259 sel 1;
+#X msg 290 305 255 \, 1;
+#X text 373 306 (open);
+#X text 372 285 (close);
+#X msg 322 284 255 \, 0;
+#X obj 12 416 spigot;
+#X obj 129 166 t b b;
+#X connect 0 0 2 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 4 0 5 0;
+#X connect 5 0 2 0;
+#X connect 11 0 0 0;
+#X connect 12 0 4 1;
+#X connect 13 0 14 0;
+#X connect 14 0 25 0;
+#X connect 14 1 1 0;
+#X connect 15 0 24 0;
+#X connect 16 0 2 0;
+#X connect 17 0 19 0;
+#X connect 19 0 20 0;
+#X connect 19 1 23 0;
+#X connect 20 0 2 0;
+#X connect 23 0 2 0;
+#X connect 24 0 2 0;
+#X connect 25 0 4 0;
+#X connect 25 1 16 0;
