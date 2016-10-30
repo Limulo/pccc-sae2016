@@ -14,6 +14,8 @@ La lista è da considerarsi uno spunto per l'approfondimento ed è basata sulla 
 * Simon Monk, "_Raspberry Pi Cookbook_", O'Reilly
 * Nemeth, Snyder, Hein, "_Linux - manuale per l'amministratore di sistema_", Pearson, 2008
 * Steve Parker, "_Shell Scripting_", Wrox, 2011
+* Johannes Kreidler, "_loadbang_", Wolke, 2009
+* Miller Puckette, "_The theory and technique of electronic music_", World Scientific, 2007 - [versione PDF](http://msp.ucsd.edu/techniques/latest/book.pdf)
 
 ### Software
 * Arduino IDE
@@ -34,6 +36,8 @@ La lista è da considerarsi uno spunto per l'approfondimento ed è basata sulla 
 * [ITP - Physical Computing Course](https://itp.nyu.edu/physcomp/)
 
 ### Videografia
+
+* [The Hello World Program](http://www.thehelloworldprogram.com): un progetto simpatico per imparare la computer science in modo divertente
 
 #### Sensori
 Alcuni video dell'[ITP](https://tisch.nyu.edu/itp) di New York in cui Tom Igoe parla di sensori
