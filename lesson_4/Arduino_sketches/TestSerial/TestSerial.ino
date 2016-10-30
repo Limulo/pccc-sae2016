@@ -34,7 +34,7 @@ void loop()
   if(bSendSerial)
   {
     Serial.write(128 + BUTT_ADDR);
-    Serial.write(value); //divisione per 8
+    Serial.write(value);
   }
   digitalWrite(LED, bLedStatus);
   delay(100);
@@ -42,18 +42,20 @@ void loop()
 
 
 // SERIAL EVENT ////////////////////////////////////////////////////////////////////////
-// o - open 
-// c - close
 void serialEvent()
 {
   byte b = Serial.read();
   
   if(b>127)
+  {
+	// the byte is an address
     lastAddress = b;
+  }
   else
   {
     switch(lastAddress)
     {
+	  // the byte is a value
       case 255:
         if (b == 1)
           bSendSerial = true;
@@ -67,7 +69,7 @@ void serialEvent()
           bLedStatus = false;
         break; 
       default:
-        //...//
+        // do nothing
         break;
    }
  }   
